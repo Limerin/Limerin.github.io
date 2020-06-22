@@ -1,0 +1,24 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.Login-div {
+    padding: 15px;
+     border: solid 1px;
+    box-shadow:0 0 2px black;
+    display: inline-block;
+}
+
+.Login-div input{
+display: block;
+margin-bottom: 7px;
+}
+
+.Login-div button:hover {
+   box-shadow: 0 0 5px #ff00ff;}
+
+.Login-div input:focus {
+    box-shadow: 0 0 7px #ff0000;
+    border: none;
+    border-color: wheat;
+}
